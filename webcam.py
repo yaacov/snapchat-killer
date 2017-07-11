@@ -7,7 +7,7 @@ ear_img = cv2.resize(ear_img, (0,0), fx=0.3, fy=0.3)
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture(0)
 (x, y, w, h) = 0,0,0,0
 
 while True:
