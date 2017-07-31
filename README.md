@@ -31,7 +31,7 @@ Compile
 mkdir opencv/build
 cd opencv/build
 
-cmake -DOPENCV_EXTRA_MODULES_PATH= ../../opencv_contrib/modules/ ..
+cmake -DOPENCV_EXTRA_MODULES_PATH= ../../opencv_contrib/modules/ -DCMAKE_INSTALL_PREFIX=/usr ..
 
 make
 ```
